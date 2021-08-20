@@ -17,7 +17,8 @@ public class GregtechBufferDynamos {
 	public static void run() {
 		run2();
 	}
-	
+
+	//here be some fun
 	private static final void run2() {
 		GregtechItemList.Hatch_Buffer_Dynamo_ULV.set(
 				new GT_MetaTileEntity_Hatch_DynamoBuffer(mID++, "hatch.dynamo.buffer.tier.00", "ULV Dynamo Hatch [Buffered]", 0).getStackForm(1L));
