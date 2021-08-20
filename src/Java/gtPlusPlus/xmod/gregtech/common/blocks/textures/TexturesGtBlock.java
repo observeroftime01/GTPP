@@ -526,7 +526,13 @@ public class TexturesGtBlock {
 			new GT_RenderedTexture((IIconContainer) OVERLAY_ENERGY_OUT_MULTI_BUFFER,
 					new short[]{240, 240, 245, 0}),
 			new GT_RenderedTexture((IIconContainer) OVERLAY_ENERGY_OUT_MULTI_BUFFER,
-					new short[]{240, 240, 245, 0})}; 
+					new short[]{240, 240, 245, 0}),
+			new GT_RenderedTexture((IIconContainer) OVERLAY_ENERGY_OUT_MULTI_BUFFER,
+					new short[]{240, 240, 245, 0}),
+			new GT_RenderedTexture((IIconContainer) OVERLAY_ENERGY_OUT_MULTI_BUFFER,
+					new short[]{240, 240, 245, 0}),
+			new GT_RenderedTexture((IIconContainer) OVERLAY_ENERGY_OUT_MULTI_BUFFER,
+					new short[]{240, 240, 245, 0})};
 
 	public static ITexture[] OVERLAYS_CABINET_FRONT = new ITexture[]{
 			new GT_RenderedTexture((IIconContainer) OVERLAY_CABINET_1,

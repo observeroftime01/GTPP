@@ -20,12 +20,6 @@ public class GregtechBufferDynamos {
 
 	//here be some fun
 	private static final void run2() {
-		GregtechItemList.Hatch_Buffer_Dynamo_ULV.set(
-				new GT_MetaTileEntity_Hatch_DynamoBuffer(mID++, "hatch.dynamo.buffer.tier.00", "ULV Dynamo Hatch [Buffered]", 0).getStackForm(1L));
-		GregtechItemList.Hatch_Buffer_Dynamo_LV.set(
-				new GT_MetaTileEntity_Hatch_DynamoBuffer(mID++, "hatch.dynamo.buffer.tier.01", "LV Dynamo Hatch [Buffered]", 1).getStackForm(1L));
-		GregtechItemList.Hatch_Buffer_Dynamo_MV.set(
-				new GT_MetaTileEntity_Hatch_DynamoBuffer(mID++, "hatch.dynamo.buffer.tier.02", "MV Dynamo Hatch [Buffered]", 2).getStackForm(1L));
 		GregtechItemList.Hatch_Buffer_Dynamo_HV.set(
 				new GT_MetaTileEntity_Hatch_DynamoBuffer(mID++, "hatch.dynamo.buffer.tier.03", "HV Dynamo Hatch [Buffered]", 3).getStackForm(1L));
 		GregtechItemList.Hatch_Buffer_Dynamo_EV.set(
@@ -39,13 +33,13 @@ public class GregtechBufferDynamos {
 		GregtechItemList.Hatch_Buffer_Dynamo_UV.set(
 				new GT_MetaTileEntity_Hatch_DynamoBuffer(mID++, "hatch.dynamo.buffer.tier.08", "UV Dynamo Hatch [Buffered]", 8).getStackForm(1L));
 		GregtechItemList.Hatch_Buffer_Dynamo_MAX.set(
-				new GT_MetaTileEntity_Hatch_DynamoBuffer(mID++, "hatch.dynamo.buffer.tier.09", "Max Dynamo Hatch [Buffered]", 9).getStackForm(1L));
-		GT_ModHandler.addCraftingRecipe(GregtechItemList.Hatch_Buffer_Dynamo_ULV.get(1L, new Object[0]), bitsd,
-				new Object[]{"TMC", 'M', ItemList.Hatch_Dynamo_ULV, 'T', CI.getTieredCircuit(0), 'C', OrePrefixes.cableGt04.get((Object) Materials.Lead)});
-		GT_ModHandler.addCraftingRecipe(GregtechItemList.Hatch_Buffer_Dynamo_LV.get(1L, new Object[0]), bitsd,
-				new Object[]{"TMC", 'M', ItemList.Hatch_Dynamo_LV, 'T', CI.getTieredCircuit(1), 'C', OrePrefixes.cableGt04.get((Object) Materials.Tin)});
-		GT_ModHandler.addCraftingRecipe(GregtechItemList.Hatch_Buffer_Dynamo_MV.get(1L, new Object[0]), bitsd, new Object[]{"TMC", 'M',
-				ItemList.Hatch_Dynamo_MV, 'T', CI.getTieredCircuit(2), 'C', OrePrefixes.cableGt04.get((Object) Materials.AnyCopper)});
+				new GT_MetaTileEntity_Hatch_DynamoBuffer(mID++, "hatch.dynamo.buffer.tier.09", "UHV Dynamo Hatch [Buffered]", 9).getStackForm(1L));
+		GregtechItemList.Hatch_Buffer_Dynamo_UEV.set(
+				new GT_MetaTileEntity_Hatch_DynamoBuffer(mID++, "hatch.dynamo.buffer.tier.10", "UEV Dynamo Hatch [Buffered]", 10).getStackForm(1L));
+		GregtechItemList.Hatch_Buffer_Dynamo_UIV.set(
+				new GT_MetaTileEntity_Hatch_DynamoBuffer(mID++, "hatch.dynamo.buffer.tier.11", "UIV Dynamo Hatch [Buffered]", 11).getStackForm(1L));
+		GregtechItemList.Hatch_Buffer_Dynamo_UMV.set(
+				new GT_MetaTileEntity_Hatch_DynamoBuffer(mID++, "hatch.dynamo.buffer.tier.12", "UMV Dynamo Hatch [Buffered]", 12).getStackForm(1L));
 		GT_ModHandler.addCraftingRecipe(GregtechItemList.Hatch_Buffer_Dynamo_HV.get(1L, new Object[0]), bitsd,
 				new Object[]{"TMC", 'M', ItemList.Hatch_Dynamo_HV, 'T', CI.getTieredCircuit(3), 'C', OrePrefixes.cableGt04.get((Object) Materials.Gold)});
 		GT_ModHandler.addCraftingRecipe(GregtechItemList.Hatch_Buffer_Dynamo_EV.get(1L, new Object[0]), bitsd, new Object[]{"TMC", 'M',
